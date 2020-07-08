@@ -36,6 +36,6 @@ You'll want to learn more about how Learning Lab works and courses are structure
 1. Once you've created the draft version, you can use the Course Builder to make changes. For more information on how to make changes, check out the [documentation](https://lab.github.com/docs/writing-quickstart) 
 1. Commit your changes to your branch
 1. Open a pull request in the parent repository with:
-    - base branch: the master branch of the course repository
+    - base branch: the default branch of the course repository, usually `main`
     - compare branch: the branch containing your commits in your fork
 1. Request a review from the Learning Lab team (this should be automatically requested)
