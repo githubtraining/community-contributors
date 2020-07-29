@@ -12,7 +12,9 @@ You can find all of our open source courses by [selecting the `learning-lab` top
 
 ### Contributing to a course
 
-Check out the [contributing guide](CONTRIBUTING.md) in this repository for more information on how you can contribute to these courses. 
+Check out the [contributing guide](CONTRIBUTING.md) in this repository for more information on how you can contribute to these courses.
+
+The [course maintenance project board](https://github.com/orgs/githubtraining/projects/1) features open issues and pull requests. Look here if you want to contribute, but aren't sure where to start. The [contributing guide](CONTRIBUTING.md) also features details about how to interact with this project board.
 
 ### Contributing a new bot behavior
 
