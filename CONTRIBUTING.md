@@ -26,6 +26,22 @@ You'll want to learn more about how Learning Lab works and courses are structure
 - watch the [video on how a Learning Lab course works](https://www.youtube.com/watch?v=xaLSVcwFkiI&list=PLg7s6cbtAD147DXcVp899Fk6SegoLY9gL&index=4)
 - watch the [video on the `config.yml`](https://www.youtube.com/watch?v=HL8MdBsFaF4&list=PLg7s6cbtAD147DXcVp899Fk6SegoLY9gL&index=2)
 
+### Finding open issues
+
+The [course maintenance project board](https://github.com/orgs/githubtraining/projects/1) is the place to go if you want to contribute but aren't sure _what_ to do. The project board is the unifying place to find bug reports, fixes, and course enhancements across all of the GitHub authored Learning Lab courses. It may be used in several ways:
+
+#### A new issue is opened
+
+When a new issue is opened in any of the course or template repositories for GitHub authored Learning Lab courses, they should be moved to the `Triage` column. This creates visibility for the issue.
+
+#### Triaging existing issues
+
+Maintainers of Learning Lab courses may use this board to triage existing issues. When triaging, maintainers evaluate the issue and fit it into the column that is most appropriate. The columns are sorted via priority, with highest priority issues at the top, but currently the system for determining priority is fluid.
+
+#### Finding somewhere to contribute
+
+If you want to contribute, but aren't sure how or where to start, the project board is a perfect place. You can see all of the open issues in one place. Aside from opening an issue, the main ways of contributing are to [replicate bug reports](how_to_replicate.md), [open pull requests](CONTRIBUTING.md) addressing open issues, or [reviewing open pull requests](how_to_review.md).
+
 ### How to Contribute
 
 1. Fork the course repository AND the template repository.
@@ -38,4 +54,5 @@ You'll want to learn more about how Learning Lab works and courses are structure
 1. Open a pull request in the parent repository with:
     - base branch: the default branch of the course repository, usually `main`
     - compare branch: the branch containing your commits in your fork
+    - Note: If a pull request is created from a fork, then Learning Lab will not deploy a version of that course. Please ping a member of @githubtraining/programs for help. They will merge the pull request into a different branch (_not the default or original target branch_) and open a new pull request that will trigger a build of the course that can be manually tested.
 1. Request a review from the Learning Lab team (this should be automatically requested)
